@@ -5,34 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> 
-    <link href="./style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet"> 
+   
 </head>
 <body> 
     <div class="calculator">
-        <input type="text" class="calcDisplay" value="" disabled/>
+        <input type="text" id="display" value="" disabled/>
             
          
         <div class="calcKeys"> 
-            <button type="button" class="operator" value="+" >+</button> 
-            <button type="button" class="operator" value="-">-</button> 
-            <button type="button" class="operator" value="*" >&times;</button> 
-            <button type="button" class="operator" value="/" >&divide;</button> 
-            <button type="button" value="7">7</button> 
-            <button type="button" value="8">8</button> 
-            <button type="button" value="9">9</button> 
-            <button type="button" value="4">4</button> 
-            <button type="button" value="5">5</button> 
-            <button type="button" value="6">6</button> 
-            <button type="button" value="1">1</button> 
-            <button type="button" value="2">2</button> 
-            <button type="button" value="3">3</button> 
-            <button type="button" value="0">0</button> 
-            <button type="button" class="decimal" value=".">.</button> 
+            <button id="add" value="+">+</button> 
+            <button id="subtract" value="-">-</button> 
+            <button id="multiply" value="*">&times;</button> 
+            <button id="divide" value="/">&divide;</button> 
+            <button id="seven" value="7">7</button> 
+            <button id="eight" value="8">8</button> 
+            <button id="nine" value="9">9</button> 
+            <button id="four" value="4">4</button> 
+            <button id="five" value="5">5</button> 
+            <button id="six" value="6">6</button> 
+            <button id="one" value="1">1</button> 
+            <button id="two" value="2">2</button> 
+            <button id="three" value="3">3</button> 
+            <button id="zero" value="0">0</button> 
+            <button id="decimal" value=".">.</button> 
             
-            <button type="button" class="clear" value="all-clear">AC</button> 
-            <button type="button" class="equals" value="=">=</button> 
+            <button id="clear" value="all-clear" >AC</button> 
+            <button id="equals"  value="=">=</button> 
+            <div id="secondaryDisplay"></div>
             </div>
     </div>
-<script src="./script.js"></script>   
+<script src="./script.js"></script>    
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
